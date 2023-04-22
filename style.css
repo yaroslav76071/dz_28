@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.wrapper{
+  width: 600px;
+  height: 500px;
+  border: 5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+button {
+  font-size: 12px;
+  padding: 15px 30px;
+  transition: 1s;
+}
+
+.red {
+  border-radius: 40px;
+  background: red;
+}
+
+.block1{
+  width: 420px;
+  height: 60px;
+  padding-top: 20px;
+  border: 5px solid black;
+  text-align: center;
+  font-size: 15px;
+  margin: 30px;
+  border-radius: 30px;
+  background: whitesmoke;
+  color: black;
+}
+
+.block2{
+  width: 420px;
+  height: 60px;
+  padding-top: 20px;
+  border: 5px solid black;
+  text-align: center;
+  font-size: 15px;
+  margin: 30px;
+  border-radius: 30px;
+  background: blue;
+  color: black;
+}
+
+.block3{
+  width: 420px;
+  height: 60px;
+  padding-top: 20px;
+  border: 5px solid black;
+  text-align: center;
+  font-size: 30px;
+  margin: 30px;
+  border-radius: 30px;
+  background: red;
+  color: black;
+}
+
+.block1-click{
+  background: whitesmoke;
+  color: black;
+}
+.block2-click{
+  background: red;
+  color: black;
+}
+.block3-click{
+  background: whitesmoke;
+  color: gold;
+}
