@@ -11,16 +11,17 @@ const App = () => {
 
   const h1Click = () => {
     setblock1Text('Заголовок в блоке!!!')
-    setclassBlock1('block1-click')
+    setClassBlock1('block1-click')
   }
   const liClick = () => {
     setblock2Text('элемент списка!!!')
-    setclassBlock2('block2-click')
-  }
+    setClassBlock2('block2-click')
+  }                   
   const blockClick = () => {
     setblock3Text('Просто блок с текстом!!!')
-    setclassBlock3('block3-click')
+    setClassBlock3('block3-click')
   }
+  
   return (
     <div className="app">
       <div class="wrapper">

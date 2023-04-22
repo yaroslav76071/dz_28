@@ -20,17 +20,6 @@
   border-radius: 30px;
 }
 
-button {
-  font-size: 12px;
-  padding: 15px 30px;
-  transition: 1s;
-}
-
-.red {
-  border-radius: 40px;
-  background: red;
-}
-
 .block1{
   width: 420px;
   height: 60px;
@@ -42,6 +31,7 @@ button {
   border-radius: 30px;
   background: whitesmoke;
   color: black;
+  transition: 2s;
 }
 
 .block2{
@@ -55,6 +45,7 @@ button {
   border-radius: 30px;
   background: blue;
   color: black;
+  transition: 2s;
 }
 
 .block3{
@@ -68,17 +59,45 @@ button {
   border-radius: 30px;
   background: red;
   color: black;
+  transition: 2s;
 }
 
 .block1-click{
-  background: whitesmoke;
+  width: 420px;
+  height: 60px;
+  padding-top: 20px;
+  border: 5px solid black;
+  text-align: center;
+  font-size: 15px;
+  margin: 30px;
+  border-radius: 30px;
+  background: yellow;
   color: black;
+  transition: 2s;
 }
 .block2-click{
-  background: red;
-  color: black;
+  width: 420px;
+  height: 60px;
+  padding-top: 20px;
+  border: 5px solid black;
+  text-align: center;
+  font-size: 15px;
+  margin: 30px;
+  border-radius: 30px;
+  background: blue;
+  color: red;
+  transition: 2s;
 }
 .block3-click{
-  background: whitesmoke;
-  color: gold;
+  width: 420px;
+  height: 60px;
+  padding-top: 20px;
+  border: 5px solid black;
+  text-align: center;
+  font-size: 30px;
+  margin: 30px;
+  border-radius: 30px;
+  background: blue;
+  color: red;
+  transition: 2s;
 }
